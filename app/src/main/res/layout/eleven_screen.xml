@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -6,13 +6,7 @@
     android:background="#C7D6D0">
 
 
-    Rescue Agency
-
-
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
         android:layout_height="69dp"
         android:layout_alignParentEnd="true"
@@ -22,8 +16,6 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="52dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
@@ -35,13 +27,10 @@
         app:srcCompat="@drawable/home" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteY="54dp"
         android:layout_width="329dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="95dp"
         android:layout_marginBottom="781dp"
         android:text="Citizens"
@@ -50,15 +39,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-
-
-        Announcment
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="174dp"
         android:layout_height="156dp"
         android:layout_alignParentStart="true"
@@ -70,9 +54,6 @@
         app:srcCompat="@drawable/simulation" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="327dp"
         android:layout_height="47dp"
         android:layout_alignParentEnd="true"
@@ -82,13 +63,10 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteY="54dp"
         android:layout_width="313dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="89dp"
         android:layout_marginBottom="513dp"
         android:text="Ongoing Disater Updates"
@@ -97,12 +75,9 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="338dp"
         android:layout_height="56dp"
         android:layout_alignParentEnd="true"
@@ -112,12 +87,10 @@
         app:srcCompat="@drawable/button_background" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="102dp"
         android:layout_marginBottom="421dp"
         android:text="Disater Stimulation Games "
@@ -125,12 +98,7 @@
         android:textSize="16sp" />
 
 
-    Events
-
-
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -142,9 +110,6 @@
         app:srcCompat="@drawable/games" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="338dp"
         android:layout_height="56dp"
         android:layout_alignParentEnd="true"
@@ -154,12 +119,10 @@
         app:srcCompat="@drawable/button_background" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="105dp"
         android:layout_marginBottom="340dp"
         android:text="Upcoming Workshops"
@@ -167,8 +130,6 @@
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -180,9 +141,6 @@
         app:srcCompat="@drawable/events" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="338dp"
         android:layout_height="56dp"
         android:layout_alignParentEnd="true"
@@ -192,21 +150,17 @@
         app:srcCompat="@drawable/button_background" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="106dp"
         android:layout_marginBottom="253dp"
-        android:text="Mock Drills & Videos"
+        android:text="Mock Drills &amp; Videos"
         android:textColor="#000000"
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -218,9 +172,6 @@
         app:srcCompat="@drawable/video" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="338dp"
         android:layout_height="56dp"
         android:layout_alignParentEnd="true"
@@ -231,21 +182,17 @@
 
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="101dp"
         android:layout_marginBottom="180dp"
-        android:text="Safe & Unsafe Practices"
+        android:text="Safe &amp; Unsafe Practices"
         android:textColor="#000000"
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -257,9 +204,6 @@
         app:srcCompat="@drawable/safe" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_alignParentEnd="true"
@@ -269,12 +213,10 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="152dp"
         android:layout_marginBottom="58dp"
         android:text="Chat Now"
@@ -282,8 +224,6 @@
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="69dp"
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
@@ -294,3 +234,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/chatnow" />
 
+</RelativeLayout>

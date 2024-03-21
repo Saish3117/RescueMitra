@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#C7D6D0">
 
 
     <ImageView
-        android:id="@+id/imageView12"
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
@@ -19,7 +19,6 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <ImageView
-        android:id="@+id/imageView5"
         tools:layout_editor_absoluteY="231dp"
         android:layout_width="52dp"
         android:layout_height="58dp"
@@ -32,13 +31,11 @@
         app:srcCompat="@drawable/home" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         tools:layout_editor_absoluteY="54dp"
         android:layout_width="329dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="95dp"
         android:layout_marginBottom="781dp"
         android:text="Rescue Agency"
@@ -47,13 +44,11 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
-        Announcment
 
     <ImageView
-        android:id="@+id/imageView5"
         tools:layout_editor_absoluteY="231dp"
         android:layout_width="187dp"
         android:layout_height="166dp"
@@ -67,7 +62,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView12"
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="647dp"
         android:layout_width="338dp"
@@ -79,13 +73,11 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         tools:layout_editor_absoluteY="54dp"
         android:layout_width="313dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="57dp"
         android:layout_marginBottom="479dp"
         android:text="Past Disaster Statistics"
@@ -94,6 +86,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
+</RelativeLayout>

@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -6,10 +6,8 @@
     android:background="#C7D6D0">
 
 
-    citizen
 
     <ImageView
-        android:id="@+id/imageView7"
         android:layout_width="86dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -19,9 +17,6 @@
         app:srcCompat="@drawable/chatnow" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
         android:layout_height="69dp"
         android:layout_alignParentEnd="true"
@@ -31,8 +26,6 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="52dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
@@ -44,14 +37,10 @@
         app:srcCompat="@drawable/home" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        Emergency
-        tools:layout_editor_absoluteY="54dp"
         android:layout_width="329dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="90dp"
         android:layout_marginBottom="783dp"
         android:text="Rescue Mitra"
@@ -60,15 +49,11 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-
-
         app:layout_constraintStart_toStartOf="parent"
+        />
 
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="235dp"
         android:layout_height="46dp"
         android:layout_alignParentEnd="true"
@@ -79,9 +64,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="213dp"
         android:layout_height="46dp"
         android:layout_alignParentEnd="true"
@@ -91,25 +73,14 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        android:id="@+id/imageView12"
-        ImageView
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="54dp"
-        tools:layout_editor_absoluteY="647dp"
-        android:layout_width="wrap_content"
         android:layout_width="235dp"
-        android:layout_height="wrap_content"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="122dp"
 
         android:layout_marginEnd="67dp"
-        android:layout_marginBottom="548dp"
         android:layout_marginBottom="594dp"
         android:text="How can I help you ?"
         android:textColor="#F8F7F7"
@@ -121,13 +92,10 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteY="54dp"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="110dp"
         android:layout_marginBottom="606dp"
         android:text="Hello , I am RescueMitra"
@@ -136,11 +104,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
     <ImageView
-        android:id="@+id/imageView7"
         android:layout_width="54dp"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -151,9 +118,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="144dp"
         android:layout_height="41dp"
         android:layout_alignParentEnd="true"
@@ -163,13 +127,10 @@
         app:srcCompat="@android:drawable/bottom_bar" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteY="54dp"
         android:layout_width="85dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="441dp"
         android:text="HEY!"
@@ -178,13 +139,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_alignParentEnd="true"
@@ -194,9 +152,6 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="360dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
@@ -212,7 +167,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="38dp"
         android:layout_marginBottom="35dp"
         android:text="Type a message ............"
@@ -228,3 +182,6 @@
         android:layout_marginStart="351dp"
         android:layout_marginTop="830dp"
         app:srcCompat="@drawable/message" />
+
+
+</RelativeLayout>

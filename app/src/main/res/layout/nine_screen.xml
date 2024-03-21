@@ -5,12 +5,10 @@
     android:layout_height="match_parent"
     android:background="#C7D6D0">
 
-citizen
+
 
     <ImageView
         android:id="@+id/imageView12"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="647dp"
         android:layout_width="match_parent"
         android:layout_height="69dp"
         android:layout_alignParentEnd="true"
@@ -20,19 +18,10 @@ citizen
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        citizen
-        current
-        logo
-        ongoing
-        tools:layout_editor_absoluteY="54dp"
-        update
-        update
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="138dp"
         android:layout_marginBottom="781dp"
         android:text="Citizen"
@@ -46,11 +35,9 @@ citizen
 
 
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="160dp"
         android:layout_height="155dp"
         android:layout_alignParentStart="true"
@@ -62,9 +49,6 @@ citizen
         app:srcCompat="@drawable/citizen" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="495dp"
         android:layout_width="337dp"
         android:layout_height="59dp"
         android:layout_alignParentStart="true"
@@ -75,14 +59,10 @@ citizen
 
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="513dp"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="83dp"
         android:layout_marginBottom="458dp"
         android:text="Ongoing Disaters Update"
@@ -90,8 +70,6 @@ citizen
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -103,13 +81,9 @@ citizen
         app:srcCompat="@drawable/announcment" />
 
 
-    training
 
 
     <ImageView
-        android:id="@+id/imageView8"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="495dp"
         android:layout_width="337dp"
         android:layout_height="59dp"
         android:layout_alignParentStart="true"
@@ -119,23 +93,17 @@ citizen
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="513dp"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="91dp"
         android:layout_marginBottom="374dp"
-        android:text="Disater Stimulation & training"
+        android:text="Disater Stimulation &amp; training"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -147,13 +115,9 @@ citizen
         app:srcCompat="@drawable/simulation" />
 
 
-    emergency
 
 
     <ImageView
-        android:id="@+id/imageView8"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="495dp"
         android:layout_width="338dp"
         android:layout_height="62dp"
         android:layout_alignParentStart="true"
@@ -163,14 +127,10 @@ citizen
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="513dp"
         android:layout_width="207dp"
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="99dp"
         android:layout_marginBottom="291dp"
         android:text="Emergency Services contact information"
@@ -178,8 +138,6 @@ citizen
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -190,12 +148,7 @@ citizen
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/contact" />
 
-    protocol
-
     <ImageView
-        android:id="@+id/imageView8"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="495dp"
         android:layout_width="337dp"
         android:layout_height="59dp"
         android:layout_alignParentStart="true"
@@ -205,14 +158,10 @@ citizen
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="513dp"
         android:layout_width="265dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="91dp"
         android:layout_marginBottom="222dp"
         android:text="Disater Service Protocol"
@@ -220,8 +169,6 @@ citizen
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        tools:layout_editor_absoluteY="231dp"
         android:layout_width="43dp"
         android:layout_height="41dp"
         android:layout_alignParentStart="true"
@@ -232,3 +179,4 @@ citizen
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/protocol" />
 
+</RelativeLayout>

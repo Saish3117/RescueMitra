@@ -5,12 +5,8 @@
     android:layout_height="match_parent"
     android:background="#3cb787">
 
-    logo rescue mitra
-
-    rescue agency
 
     <ImageView
-        android:id="@+id/imageView9"
         android:layout_width="399dp"
         android:layout_height="459dp"
         android:layout_alignParentTop="true"
@@ -20,7 +16,6 @@
         app:srcCompat="@drawable/logoresue" />
 
     <ImageView
-        android:id="@+id/imageView4"
         android:layout_width="71dp"
         android:layout_height="72dp"
         android:layout_alignParentStart="true"
@@ -31,7 +26,6 @@
 
     <!-- ImageView -->
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="188dp"
         android:layout_height="54dp"
         android:layout_alignParentStart="true"
@@ -40,21 +34,12 @@
         android:layout_marginTop="380dp"
         app:srcCompat="@drawable/rectangle_button" />
 
-    <!-- TextView -->
-
-    citizen
-
-    <!-- ImageView -->
-
-    <!-- TextView -->
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="143dp"
         android:layout_marginBottom="470dp"
         android:text="Resuce Agency"
@@ -62,7 +47,6 @@
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView4"
         android:layout_width="71dp"
         android:layout_height="72dp"
         android:layout_alignParentStart="true"
@@ -72,7 +56,6 @@
         app:srcCompat="@drawable/citizen" />
 
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="188dp"
         android:layout_height="54dp"
         android:layout_alignParentStart="true"
@@ -82,14 +65,14 @@
         app:srcCompat="@drawable/rectangle_button" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="164dp"
         android:layout_marginBottom="273dp"
         android:text="Citizen"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
+
+</RelativeLayout>

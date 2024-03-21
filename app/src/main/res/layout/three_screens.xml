@@ -11,7 +11,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="358dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
@@ -34,7 +33,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="358dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
@@ -44,22 +42,18 @@
         app:srcCompat="@drawable/button_background" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="35dp"
         android:layout_marginBottom="510dp"
         android:text="Phone number,Email or username"
         android:textColor="#000000"
         android:textSize="16sp" />
 
-    password
 
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="358dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
@@ -73,12 +67,10 @@
         app:srcCompat="@drawable/button_background" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="39dp"
         android:layout_marginBottom="427dp"
         android:text="Password"
@@ -86,22 +78,18 @@
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView8"
         android:layout_width="395dp"
         android:layout_height="68dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="499dp"
-        app:srcCompat="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginTop="499dp"/>
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="146dp"
         android:layout_marginBottom="349dp"
         android:text="Sign In"
@@ -110,12 +98,10 @@
 
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="31dp"
         android:layout_marginBottom="285dp"
         android:text="Forgot your login deatils ? Get help in signing in"
@@ -123,22 +109,15 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="339dp"
         android:layout_height="33dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="35dp"
         android:layout_marginBottom="221dp"
         android:text="________________________OR_______________________"
         android:textColor="#000000"
-        android:textSize="16sp" /><![CDATA[
-
-    />
-
-    ]]>
-
+        android:textSize="16sp" />
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="358dp"
@@ -155,7 +134,6 @@
         app:srcCompat="@drawable/button_background" />
 
     <ImageView
-        android:id="@+id/imageView3"
         android:layout_width="66dp"
         android:layout_height="43dp"
         android:layout_alignParentStart="true"
@@ -165,12 +143,10 @@
         app:srcCompat="@drawable/email" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="194dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="144dp"
         android:layout_marginBottom="160dp"
         android:text="Contunie with Email"
@@ -178,12 +154,10 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="-1dp"
         android:layout_marginBottom="82dp"
         android:text="_________________________________________________________"
@@ -191,12 +165,10 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/textViewLabel"
         android:layout_width="342dp"
         android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInside="@id/imageView8"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="38dp"
         android:text="Don't have an account ? Get help in signing in."
@@ -204,7 +176,6 @@
         android:textSize="16sp" />
 
     <ImageView
-        android:id="@+id/imageView3"
         android:layout_width="66dp"
         android:layout_height="43dp"
         android:layout_alignParentStart="true"
@@ -212,3 +183,4 @@
         android:layout_marginStart="283dp"
         android:layout_marginBottom="418dp"
         app:srcCompat="@drawable/passwordicon" />
+</RelativeLayout>
