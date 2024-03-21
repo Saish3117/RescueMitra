@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D6D0">
+
+citizen
+
+    <ImageView
+        android:id="@+id/imageView12"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="647dp"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-17dp"
+        android:layout_marginBottom="765dp"
+        app:srcCompat="@drawable/rectangle_button" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        citizen
+        current
+        logo
+        ongoing
+        tools:layout_editor_absoluteY="54dp"
+        update
+        update
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="781dp"
+        android:text="Citizen"
+
+        android:textColor="#000000"
+        android:textSize="30sp"
+
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="199dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/citizen" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="495dp"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="377dp"
+        app:srcCompat="@drawable/rectangle_button" />
+
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="513dp"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="458dp"
+        android:text="Ongoing Disaters Update"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="385dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/announcment" />
+
+
+    training
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="495dp"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="463dp"
+        app:srcCompat="@drawable/rectangle_button" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="513dp"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="91dp"
+        android:layout_marginBottom="374dp"
+        android:text="Disater Stimulation & training"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="475dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/simulation" />
+
+
+    emergency
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="495dp"
+        android:layout_width="338dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="548dp"
+        app:srcCompat="@drawable/rectangle_button" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="513dp"
+        android:layout_width="207dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="291dp"
+        android:text="Emergency Services contact information"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="554dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/contact" />
+
+    protocol
+
+    <ImageView
+        android:id="@+id/imageView8"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="495dp"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="625dp"
+        app:srcCompat="@drawable/rectangle_button" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="513dp"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="91dp"
+        android:layout_marginBottom="222dp"
+        android:text="Disater Service Protocol"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="634dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/protocol" />
+

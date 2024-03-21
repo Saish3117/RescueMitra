@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3cb787">
+
+    <!-- Background Image -->
+
+    <!-- Email Input -->
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="340dp"
+        app:srcCompat="@drawable/button_background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginBottom="552dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoresue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="340dp"
+        app:srcCompat="@drawable/button_background" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="510dp"
+        android:text="Phone number,Email or username"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    password
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="424dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/button_background" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="427dp"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="395dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="499dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_on"
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="146dp"
+        android:layout_marginBottom="349dp"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="285dp"
+        android:text="Forgot your login deatils ? Get help in signing in"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="339dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="221dp"
+        android:text="________________________OR_______________________"
+        android:textColor="#000000"
+        android:textSize="16sp" /><![CDATA[
+
+    />
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="694dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="8dp"
+        android:text="Continue with Email"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/button_background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="148dp"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="160dp"
+        android:text="Contunie with Email"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="82dp"
+        android:text="_________________________________________________________"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="342dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInside="@id/imageView8"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="38dp"
+        android:text="Don't have an account ? Get help in signing in."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginBottom="418dp"
+        app:srcCompat="@drawable/passwordicon" />
