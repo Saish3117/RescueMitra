@@ -20,7 +20,6 @@
         app:srcCompat="@drawable/button_background" />
 
     <ImageView
-        android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginEnd="-12dp"
@@ -41,17 +40,17 @@
         android:layout_marginTop="340dp"
         app:srcCompat="@drawable/button_background" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginBottom="510dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="476dp"
         android:text="Phone number,Email or username"
         android:textColor="#000000"
         android:textSize="16sp" />
-
 
     <ImageView
         android:layout_width="358dp"
@@ -102,8 +101,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginBottom="285dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="274dp"
         android:text="Forgot your login deatils ? Get help in signing in"
         android:textColor="#000000"
         android:textSize="16sp" />
@@ -118,14 +117,15 @@
         android:text="________________________OR_______________________"
         android:textColor="#000000"
         android:textSize="16sp" />
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="358dp"
         android:layout_height="58dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="694dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="220dp"
         android:drawableLeft="@drawable/email"
         android:drawablePadding="8dp"
         android:text="Continue with Email"

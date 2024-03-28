@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478871113254",
+    "project_id": "rescuemitra",
+    "storage_bucket": "rescuemitra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478871113254:android:6189f4d942b791f73960e7",
+        "android_client_info": {
+          "package_name": "com.example.loginresgister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp9kr2mM3TBhR0puvPBtk1NQA4tNxQlHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
