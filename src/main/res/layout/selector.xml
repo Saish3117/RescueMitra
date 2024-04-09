@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73C981">
+
+
+    <!-- ImageView -->
+    <LinearLayout
+        android:id="@+id/whole_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_marginTop="70dp"
+            android:id="@+id/login_page"
+            android:layout_width="274dp"
+            android:layout_height="245dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logooo" />
+
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rescueagency" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/RescueAgency"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:text="Rescue Agency"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/citizen"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Citizens"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"
+            android:text="Citizens"
+            android:layout_gravity="center"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
