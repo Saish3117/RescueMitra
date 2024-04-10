@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RescueMitra Apps</string>
+    <string name="ongoing_disaster_update">Ongoing Disaster Update</string>
+    <string name="safe_unsafe_practice"><![CDATA[safe & unsafe practice]]></string>
 </resources>

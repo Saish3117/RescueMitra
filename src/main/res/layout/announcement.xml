@@ -15,85 +15,95 @@
         android:src="@drawable/img_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.194" />
 
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="425dp"
-        android:layout_height="71dp"
+        android:layout_width="444dp"
+        android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/img_9" />
-
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/back"
-        android:layout_width="44dp"
-        android:layout_height="52dp"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
-        android:background="@android:color/transparent"
         android:layout_marginHorizontal="20dp"
-        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/img_37"
         android:drawablePadding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.018" />
 
-    <ImageView
-        android:id="@+id/imae_1"
-        android:layout_width="330dp"
-        android:layout_height="281dp"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/img_12"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Annunem"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_62"
+        android:drawablePadding="8dp"
+        android:text="Emergency alerts"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662" />
+        app:layout_constraintVertical_bias="0.425" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="335dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="40dp"
-        android:background="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="335dp"
-        android:layout_height="59dp"
-        android:background="@android:color/transparent"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Annun"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_63"
+        android:drawablePadding="8dp"
+        android:text="schedule of upcoming events"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintVertical_bias="0.514" />
 
-    <Button
-        android:id="@+id/butn2"
-        android:layout_width="335dp"
-        android:layout_height="59dp"
-        android:background="@android:color/transparent"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Anunem"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_42"
+        android:drawablePadding="8dp"
+        android:text="post videos drill "
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintVertical_bias="0.608" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,22 +6,23 @@
     android:layout_height="match_parent"
     android:background="#D9D9D9">
 
+
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="459dp"
         android:layout_height="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/img_9" />
-
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Announcement"
-        android:layout_width="301dp"
-        android:layout_height="62dp"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
 
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
@@ -39,8 +40,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/current"
-        android:layout_width="301dp"
-        android:layout_height="60dp"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
@@ -57,8 +58,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/past"
-        android:layout_width="304dp"
-        android:layout_height="63dp"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
@@ -75,8 +76,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/community"
-        android:layout_width="312dp"
-        android:layout_height="62dp"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
@@ -87,10 +88,9 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.724" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <ImageView
         android:id="@+id/image_1"
@@ -104,5 +104,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.247" />
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homer"
+        android:layout_width="63dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/img_37"
+        android:drawablePadding="8dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
 </androidx.constraintlayout.widget.ConstraintLayout>

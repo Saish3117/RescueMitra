@@ -13,6 +13,8 @@ class rescue : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.rescue)
 
+
+        val buttonn = findViewById<Button>(R.id.homer)
         val button1 = findViewById<Button>(R.id.Announcement)
         val button2 = findViewById<Button>(R.id.current)
         val button3 = findViewById<Button>(R.id.past)
@@ -33,9 +35,14 @@ class rescue : AppCompatActivity() {
                     val intent = Intent(this, past::class.java)
                     startActivity(intent)
 
+                    buttonn.setOnClickListener {
+                        val intent = Intent(this, second::class.java)
+                        startActivity(intent)
 
+                    }
                 }
             }
         }
     }
 }
+
